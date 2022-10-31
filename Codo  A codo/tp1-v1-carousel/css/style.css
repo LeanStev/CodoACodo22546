@@ -1,0 +1,31 @@
+body{
+    overflow: hidden;
+}
+/* nav */
+.navbar-brand img{
+    height: 4rem; ;
+}
+
+.navbar-nav{
+    margin-left: auto; 
+    gap: 50px;
+}
+/* nav */
+
+/* Carousel-1 */
+
+/* img carousel-2 */
+.bg-gradient{
+    background: #000;
+}
+
+.bg-carousel{
+
+    height: 85vh;
+
+}
+/* img carousel */
+
+/* .carousel-caption{
+    margin-top: 200px;
+} */

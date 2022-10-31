@@ -1,0 +1,68 @@
+body{
+    font-family: 'Fascinate', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Spline Sans Mono', monospace;
+}
+/********** NAV ************/
+.navbar-brand img{
+    height: 4rem; ;
+}
+
+.navbar-nav{
+    margin-left: auto; 
+    gap: 50px;
+}
+
+/********* HEADER **********/
+
+header{
+    height: 70vh;
+background: linear-gradient(0deg, rgba(0,0,0,0.3757878151260504) 0%, rgba(0,0,0,0.6026785714285714) 0%), url(../img/ba1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+.p-2{
+    margin-bottom: 10px;
+    margin-right: 50px;
+    font-size: 1.5rem;
+    color:white;
+}
+
+.btn{
+    margin-right: 10px;
+    margin-bottom: 10px; 
+}
+
+
+/********** Section One  *********/
+
+.card-group{
+    margin-top: 10px;
+}
+
+.text-center{
+    margin-top: 10px;
+    text-align: center;
+   
+}
+
+.oradores-b{
+    font-size:3rem ;
+}
+
+/********** Section One  *********/
+
+
+/* ********* ASIDE *************/
+
+
+
+/* ********* ASIDE *************/
+
+
+
+ /*w*/                         /*w*/                    /*w*/                            /*w*/                       /*w*/                                                                                           

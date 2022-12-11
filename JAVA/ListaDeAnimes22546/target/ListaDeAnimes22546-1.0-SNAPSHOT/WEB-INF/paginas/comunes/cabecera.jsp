@@ -1,10 +1,10 @@
 
 
-<header id = "main-header" class = "py-2 bg-info text-white">
+<header id = "main-header" class = "py-2 text-white">
     <div class="container">
-        <div class="row">
+        <div class="row-header">
             <div class="col-md-6 titulo-container">
-                <h1><i class="fa-solid fa-cat"></i>Lista de <strong>animes</strong> vistos.</h1>
+                <h1><img class="header-icon" src="https://thumbs.gfycat.com/WelloffUnfinishedBoaconstrictor-size_restricted.gif" alt="alt"/>Lista de animes vistos.</h1>
             </div>
         </div>
     </div>

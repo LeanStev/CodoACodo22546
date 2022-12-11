@@ -57,33 +57,31 @@ public class AnimesDAO {
         return animes;
     }
     
-//    public int insertar (Anime anime){
-//        Connection conexion = null;
-//        PreparedStatement sentencia = null;
-//        
-//        int registros = 0;
-//        
-//        try {
-//            conexion = ConexionBD.getConexion();
-//            sentencia = conexion.prepareStatement(SQL_INSERT);
-//            sentencia.setString(1,anime.getNombre());
-//            sentencia.setString(2,anime.getAutor());
-//            sentencia.setInt(3,anime.getCapitulos());
-//            sentencia.setInt(4,anime.getFinalizado());
-//            
-//            registros = sentencia.executeUpdate();
-//        } catch (SQLException e) {
-//            e.printStackTrace(System.out);
-//        } finally{
-//            try {
-//                 ConexionBD.cerrar(sentencia);
-//                 ConexionBD.cerrar(conexion);
-//            } catch (SQLException e) {
-//                e.printStackTrace(System.out); 
-//            }  
-//        }
-//        return registros;
-//    }
+    public int insertar(Anime anime){
+        Connection conexion = null;
+        PreparedStatement sentencia = null;
+        int registros = 0;
+        try {
+            conexion = getConexion();
+            sentencia = conexion.prepareStatement(SQL_INSERT);
+            sentencia.setString(1, anime.getNombre());
+            sentencia.setString(2, anime.getAutor());
+            sentencia.setInt(3, anime.getCapitulos());
+            sentencia.setInt(4, anime.getFinalizado());
+            registros = sentencia.executeUpdate();
+        } catch (SQLException ex) {
+            ex.printStackTrace(System.out);
+        }
+        finally{
+            try {
+                close(sentencia);
+                close(conexion);
+            } catch (SQLException ex) {
+                ex.printStackTrace(System.out);
+            }
+        }
+        return registros;
+    }
 //     
 //   public int actualizar(Anime anime){
 //       Connection conexion = null;

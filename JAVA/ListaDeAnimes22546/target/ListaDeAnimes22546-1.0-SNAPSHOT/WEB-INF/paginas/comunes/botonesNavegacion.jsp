@@ -1,14 +1,18 @@
 
-<<section id="actions" class="py-4 mb4 bg-light">
+<section id="actions" class="py-4 mb4">
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <a href="#" class="btn btn-primary btn-block"
+<!--                <a href="#" class="btn btn-primary btn-block"
                    data-bs-toggle = "modal"
-                   data-bs-bstarget = "AgregarAnimeModal">
+                   data-bs-bstarget = "#agregarAnimeModal">
                    <i class="fa-solid fa-circle-plus"></i>
                     Añadir anime
-                </a>
+                </a>-->
+<button type="buton" class="btn btn-primary btn-block" data-bs-toggle="modal" data-bs-target="#agregarAnimeModal">
+     <i class="fa-solid fa-circle-plus"></i>  
+     Añadir anime
+</button>
             </div>
         </div>
     </div>

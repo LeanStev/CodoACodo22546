@@ -3,16 +3,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-<!--                <a href="#" class="btn btn-primary btn-block"
-                   data-bs-toggle = "modal"
-                   data-bs-bstarget = "#agregarAnimeModal">
-                   <i class="fa-solid fa-circle-plus"></i>
-                    Añadir anime
-                </a>-->
-<button type="buton" class="btn btn-primary btn-block" data-bs-toggle="modal" data-bs-target="#agregarAnimeModal">
-     <i class="fa-solid fa-circle-plus"></i>  
-     Añadir anime
-</button>
+
+                    <button type="buton" class="btn btn-primary btn-block" data-bs-toggle="modal" data-bs-target="#agregarAnimeModal">
+                         <i class="fa-solid fa-circle-plus"></i>  
+                         Añadir anime
+                    </button>
             </div>
         </div>
     </div>

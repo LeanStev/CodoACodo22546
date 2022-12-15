@@ -31,7 +31,7 @@
                                    <td> ${anime.finalizado} </td>
                                    
                                    <td>
-                                       <a href="1" class="btn-secundary">
+                                       <a href="${pageContext.request.contextPath}/servletControlador?accion=editar&idAnime=${anime.idanime}" class="btn-secundary">
                                            <i class="fa-solid fa-pen-to-square"></i>
                                            Editar
                                        </a>
@@ -60,4 +60,4 @@
         </div>
     </div>
 </section>
-  <jsp:include page="/WEB-INF/paginas/operaciones/agregarAnime.jsp"/>             
+   <jsp:include page="/WEB-INF/paginas/operaciones/agregarAnime.jsp"/>             

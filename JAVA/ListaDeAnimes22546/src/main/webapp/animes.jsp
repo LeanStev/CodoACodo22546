@@ -9,7 +9,7 @@
 
     </head>
     <body>
-        <img class="imgGif" src="https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwHQ23nYQP3Xdqds56ChX-RQ">
+        <img class="imgGif" src="https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwHQ23nYQP3Xdqds56ChX-RQ"/>
         <div class="icon-anime">
             <img class="anime1" src="https://static.tumblr.com/f57163fe954296a2a4d17e506e971ce5/fzar6mu/ypFpbt805/tumblr_static_6s4li12sjig408k88sww0cww0.gif" alt="gif-anime"/>
         </div>
@@ -62,6 +62,7 @@
     position: fixed;
     width: 300px;
     height: 300px;
+    bottom: 0;
 }
 
 .card,.card-head{
@@ -78,7 +79,7 @@ tr,th,td{
 
 }
 .btn-secundary:hover{
-    color:rgb(255, 0, 0);;
+    color:rgb(200, 0, 0);;
 }
     </style>
 </html>

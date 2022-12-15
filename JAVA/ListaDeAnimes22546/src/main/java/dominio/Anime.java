@@ -3,7 +3,7 @@ package dominio;
 
 
 public class Anime {
-    private int IdAnime;
+    private int idanime;
     private String Nombre;
     private String Autor;
     private int Capitulos;
@@ -11,9 +11,10 @@ public class Anime {
     
     public Anime(){}
 
-    public Anime(int IdAnime) {
-        this.IdAnime = IdAnime;
+    public Anime(int idanime) {
+        this.idanime = idanime;
     }
+
 
     public Anime(String Nombre, String Autor, int Capitulos, int Finalizado) {
         this.Nombre = Nombre;
@@ -23,19 +24,19 @@ public class Anime {
     }
 
     public Anime(int IdAnime, String Nombre, String Autor, int Capitulos, int Finalizado) {
-        this.IdAnime = IdAnime;
+        this.idanime = IdAnime;
         this.Nombre = Nombre;
         this.Autor = Autor;
         this.Capitulos = Capitulos;
         this.Finalizado = Finalizado;
     }
 
-    public int getIdAnime() {
-        return IdAnime;
+    public int getidanime() {
+        return idanime;
     }
 
-    public void setIdAnime(int IdAnime) {
-        this.IdAnime = IdAnime;
+    public void setidanime(int IdAnime) {
+        this.idanime = IdAnime;
     }
 
     public String getNombre() {
@@ -72,7 +73,7 @@ public class Anime {
 
      @Override
     public String toString() {
-        return "Anime{" + "IdAnime=" + IdAnime + ", Nombre=" + Nombre + ", Autor=" + Autor + ", Capitulos=" + Capitulos + ", Finalizado=" + Finalizado + "}";
+        return "Anime{" + "IdAnime=" + idanime + ", Nombre=" + Nombre + ", Autor=" + Autor + ", Capitulos=" + Capitulos + ", Finalizado=" + Finalizado + "}";
     }
     
     
